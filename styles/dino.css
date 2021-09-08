@@ -16,7 +16,7 @@ body {
         background-position: 0;
     }
     to {
-        background-position: 10296px
+        background-position: 6820px
     }
 }
 
@@ -30,12 +30,12 @@ body {
 }
 
 .dino {
-    width: 936px;
-    height: 643px;
+    width: 682px;
+    height: 474px;
     background: url(../images/dino.png);
     position: absolute;
     top: 50%;
     left: 50%; 
     transform: translate(-50%, -50%);
-    animation: dino 0.4s steps(11) infinite, moveDino 2s linear infinite;
+    animation: dino 0.8s steps(10) infinite, moveDino 4s linear infinite;
 }
