@@ -16,7 +16,7 @@ body {
 .dino {
     width: 682px;
     height: 474px;
-    background: url(../images/dino.png);
+    background: url(../sprites/dino.png);
     position: absolute;
     top: 55%;
     /* left: 30%;  */
@@ -46,7 +46,7 @@ body {
 .santa {
     width: 936px;
     height: 643px;
-    background: url(../images/santa.png);
+    background: url(../sprites/santa.png);
     position: absolute;
     top: 50%;
     /* left: 60%;  */
