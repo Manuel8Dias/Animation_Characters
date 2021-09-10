@@ -11,31 +11,31 @@ body {
     overflow: hidden;
 } 
 
-@keyframes dragonh {
+@keyframes darkKnightH {
     from {
         background-position-x: 0;
     }
     to {
-        background-position-x: 384px;
+        background-position-x: 128px;
     }
 }
 
-@keyframes dragonv {
+@keyframes darkKnightV {
     from {
         background-position-y: 0;
     }
     to {
-        background-position-y: 384px;
+        background-position-y: 192px;
     }
 }
 
-.dragon {
-    width: 96px;
-    height: 96px;
-    background: url(../sprites/dragon.png);
+.darkKnight {
+    width: 32px;
+    height: 48px;
+    background: url(../sprites/darkKnight.png);
     position: absolute;
     top: 50%;
     left: 50%; 
     transform: translate(-50%, -50%);
-    animation: dragonh 1s steps(4) infinite, dragonv 4s steps(4) infinite;
+    animation:  darkKnightH 1s steps(4) infinite, darkKnightV 4s steps(4) infinite;
 }
